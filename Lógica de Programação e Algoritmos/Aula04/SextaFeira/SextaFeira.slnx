@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="Form.cs/Form.cs.csproj" Id="2c0bd411-6ee9-46e3-a5a9-9cc44f086ad8" />
+  <Project Path="ResoluçãoDeExercicios/ResoluçãoDeExercicios.csproj" Id="fc4740ac-c2f0-4fc7-9651-2208b665d15a" />
+  <Project Path="SextaFeira/SextaFeira.csproj" />
+  <Project Path="Tarefas/Tarefas.csproj" Id="4f540f57-6fc3-4e28-9089-7876f24e7eca" />
+  <Project Path="Tempo/Tempo.csproj" />
+  <Project Path="Tempo2/Tempo2.csproj" Id="46313ff9-cc24-4188-b5b3-85a876868790" />
+  <Project Path="Winforms/Winforms.csproj" Id="cde94414-1769-4ae3-a89a-a5523238e32f" />
+</Solution>

@@ -1,0 +1,87 @@
+using System.Reflection;
+
+using static System.Console;
+//Saida de dados
+
+BackgroundColor = ConsoleColor.DarkBlue;
+double numero = 1.73598597;
+WriteLine($"Salario = {numero:n2}");
+Console.WriteLine("Hello, +" +
+    " World!");
+Console.Write("SENAI"); //SAIDA DE DADOS
+Console.WriteLine("/tTesteespaço");
+Console.WriteLine("CAMPEAO\nClodoaldo");
+Console.Title = "Aplicativo SENAI";
+String escola = "AMERICANA";
+Beep();
+WriteLine($"SENAI: {escola}");
+WriteLine($"SENAI: {escola}");
+ForegroundColor = ConsoleColor.Magenta;
+ForegroundColor = ConsoleColor.DarkYellow;
+WriteLine("SENAI");
+ResetColor();
+ReadKey();
+
+//Processamento de dados 
+int a = 1 + 1; //Op soma
+int b = 2 - 1; //Op subtração
+int c = 2 * 1; //Op mult
+double d = 4 / 1; //Op divisão
+double e = 2 * 2 * 2;
+double f = 4 / 2;Math.Sqrt(4); // Raiz quadrada
+Math.Pow(2, 3); //potência
+double k = 1 + (1 - (2 * 3)) / 4;
+double j = 2 % 2; // Módulo ou resto da divisão ( ex: 5 % 2 = 1, pois 5 dividido por 2 é 2 e sobra 1)
+int y = 0; // Declarei o valor do y como 0
+Console.WriteLine(y);
+y++; // é a mesma coisa que y = y + 1; ou seja, incrementa o valor de y em 1
+Console.WriteLine(y);
+y--; // é a mesma coisa que y = y - 1; ou seja, decrementa o valor de y em 1
+y + = 2. // soma e atribuição
+y - = 2; // subtração e atribuição
+y * = 2; // multiplicação e atribuição
+y / = 2; // divisão e atribuição
+y %= 2; // módulo e atribuição
+Console.WriteLine(y);
+Console.ReadKey();
+
+//Entrada de dados
+//string nome = Console.ReadLine(); //Comando para fazer a entrada de dados
+Console.Writeline("Digite o seu nome: ");
+Console.Writeline("Digite a sua idade: ");
+int idade = int.Parse(Console.ReadLine()); //Comando para fazer a conversão de dados de string para inteiro
+Console.WriteLine($"Olá {nome}, você tem {idade+2} anos."); //Comando para mostrar a saída de dados
+
+Console.Write("Digite o seu salário: R$");
+double salario = double.Parse(Console.ReadLine()); //Comando para fazer a conversão de dados de string para double
+Console.WriteLine($"Nome> {nome}, Idade> {idade}, Salário> R${salario}, Idade {idade+1}, Salario = R$ {salario}"); //Comando para mostrar a saida de dados
+
+//EXERCICIO NUMEROS 2
+
+// Declaração de variáveis
+double bAse;
+double altura;
+double area;
+double perimetro;
+double diagonal;
+
+//Entrada de dados
+Console.Write("Digite a base do retângulo: "); 
+bAse = double.Parse(Console.ReadLine());
+Console.Write("Digite a altura do retângulo: ");
+altura= double.Parse(Console.ReadLine());
+
+//Processamento de dados
+area = bAse * altura;
+perimetro = bAse + altura + bAse + altura;
+<<<<<<< HEAD
+diagonal = Math.Sqrt(Math.Pow(bAse, 2) + Math.Pow(altura, 2)); // comment math. pow ( BASE , 2 é o expoente base utilizado para calcular a diagonal do retângulo, elevado a 2
+=======
+diagonal = Math.Sqrt(Math.Pow(bAse, 2) + Math.Pow(altura, 2)); // math. pow ( BASE , 2 é o expoente base utilizado para calcular a diagonal do retângulo, elevado a 2
+>>>>>>> b765208060448fae7d19fcbfd813b44c628fd6f8
+
+//Saída de dados
+Console.WriteLine($"--Dados do retângulo--\n"+
+    $"Área - {area:f2}\n"+
+    $"Perímetro - {perimetro:f4}\n"+
+    $"Diagonal = {diagonal:n}\n");

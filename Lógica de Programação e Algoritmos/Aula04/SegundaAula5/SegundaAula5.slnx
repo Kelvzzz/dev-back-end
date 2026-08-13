@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Atividade02/Atividade02.csproj" />
+  <Project Path="CalculoDelta/CalculoDelta.csproj" />
+  <Project Path="NotasExercicio/NotasExercicio.csproj" />
+  <Project Path="RestauranteTask/RestauranteTask.csproj" />
+  <Project Path="SegundaAula5/SegundaAula5.csproj" />
+</Solution>
