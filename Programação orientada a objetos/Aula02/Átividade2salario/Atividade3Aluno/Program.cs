@@ -31,7 +31,7 @@ try
         Console.WriteLine("Aluno reprovado, faltaram " + (60 - Notafinal) + " pontos!");
     }
 }
-catch
+catch (Exception ex)
 {
 
     Console.WriteLine("Erro na digitação dos dados!");
