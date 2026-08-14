@@ -1,7 +1,5 @@
 ﻿//Declaração de variaveis
 using Aplicativo01;
-
-Calculadora calculadora;
 double raio;
 
 
@@ -11,7 +9,6 @@ Console.Write("Entre com o valor do raio da circunferência: ");
 raio = double.Parse(Console.ReadLine());
 
 //Instanciação do objeto
-calculadora = new Calculadora(raio);
 
 
 //Processamento de dados
@@ -19,7 +16,6 @@ calculadora = new Calculadora(raio);
 
 
 //Saida de dados
-Console.WriteLine($"Cicunferência: {calculadora.Circunferencia():f2}" +
-    $"Volume: {calculadora.volume:f2}");
-
-calculadora.PI();
+Console.WriteLine($"Cicunferência: {Calculadora.Circunferencia(raio):f2}" +
+    $"Volume: {Calculadora.volume(raio):f2}");
+Calculadora.PI();
