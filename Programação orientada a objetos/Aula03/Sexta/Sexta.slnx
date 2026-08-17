@@ -1,4 +1,7 @@
 <Solution>
   <Project Path="Aplicativo01/Aplicativo01.csproj" />
+  <Project Path="Cotação dolar/Cotação dolar.csproj" />
   <Project Path="Estrutura/Estrutura.csproj" />
+  <Project Path="Exerciciocotacaodolar/Exerciciocotacaodolar.csproj" />
+  <Project Path="WinFormsApp1/WinFormsApp1.csproj" Id="f590fa9b-a2f7-4854-931f-6e66a46fe48a" />
 </Solution>
