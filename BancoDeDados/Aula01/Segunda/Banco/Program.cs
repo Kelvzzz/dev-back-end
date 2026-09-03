@@ -69,7 +69,7 @@ void CadastrarConta(ContaContext conta)
         contaCriada = new Conta(numero, titular, 0);
     }
 
-    conta.contas.Add(contaCriada); // Create
+    conta.contas.Add(contaCriada); // Create - Criar
     conta.SaveChanges();
     Console.WriteLine("\n Conta cadastrada com sucesso\n");
     contaCriada.ExibirDados();
@@ -123,12 +123,16 @@ void ConsultaConta(ContaContext conta)
 
                 case 3:
                 //Operação alterar o titular
+                Console.Write("Digite o novo titular da conta: ");
+                string novoTitular = Console.ReadLine();
+                contaConsultada.TitularDaConta = novoTitular;
+                conta.SaveChanges();
+                contaConsultada.ExibirDados();
                 break;
 
             case 4:
                 //Sair
-               continuar = false;
-                break;
+                return;
 
             default:
                 Console.WriteLine("Opção invalida");
