@@ -51,6 +51,7 @@
             button3 = new Button();
             checkBox1 = new CheckBox();
             checkBox2 = new CheckBox();
+            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -65,6 +66,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(600, 50);
             textBox1.TabIndex = 0;
+            textBox1.KeyDown += textBox1_KeyDown;
             // 
             // label1
             // 
@@ -140,7 +142,7 @@
             panel1.Controls.Add(button3);
             panel1.Location = new Point(2, 1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(630, 449);
+            panel1.Size = new Size(546, 449);
             panel1.TabIndex = 7;
             // 
             // pictureBox1
@@ -148,7 +150,8 @@
             pictureBox1.BackColor = SystemColors.ActiveBorder;
             pictureBox1.Location = new Point(434, 55);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(181, 165);
+            pictureBox1.Size = new Size(175, 146);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 18;
             pictureBox1.TabStop = false;
             // 
@@ -189,7 +192,7 @@
             // textBox5
             // 
             textBox5.Enabled = false;
-            textBox5.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox5.Font = new Font("Segoe UI", 15F);
             textBox5.Location = new Point(191, 238);
             textBox5.Multiline = true;
             textBox5.Name = "textBox5";
@@ -200,7 +203,7 @@
             // textBox4
             // 
             textBox4.Enabled = false;
-            textBox4.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox4.Font = new Font("Segoe UI", 15F);
             textBox4.Location = new Point(191, 170);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
@@ -211,7 +214,7 @@
             // textBox3
             // 
             textBox3.Enabled = false;
-            textBox3.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox3.Font = new Font("Segoe UI", 15F);
             textBox3.Location = new Point(191, 101);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
@@ -222,7 +225,7 @@
             // textBox2
             // 
             textBox2.Enabled = false;
-            textBox2.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox2.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox2.Location = new Point(191, 29);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
@@ -282,6 +285,7 @@
             button3.Text = "Fechar compra";
             button3.TextAlign = ContentAlignment.MiddleRight;
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // checkBox1
             // 
@@ -304,6 +308,14 @@
             checkBox2.Text = "Carro";
             checkBox2.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(653, 182);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 13;
+            // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -312,6 +324,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(800, 450);
+            Controls.Add(comboBox1);
             Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Controls.Add(panel1);
@@ -360,5 +373,6 @@
         private PictureBox pictureBox1;
         private CheckBox checkBox1;
         private CheckBox checkBox2;
+        private ComboBox comboBox1;
     }
 }

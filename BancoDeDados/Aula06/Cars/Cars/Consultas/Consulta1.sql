@@ -4,9 +4,9 @@ SET XACT_ABORT ON;
 BEGIN TRANSACTION;
 
 DECLARE @basePathMoto NVARCHAR(400) =
-N'C:\Users\Back\Documents\DEVBACKEND\BancoDeDados\Aula06\Cars\Cars\Fotos\Motos\';
-DECLARE @basePathCarro NVARCHAR(400) = N'C:\Users\Back\Documents\DEVBACKEND\BancoDeDados\Aula06\Cars\Cars\Fotos\Carros\';
-
+N'C:\Users\Back\Documents\dev back end\BancoDeDados\Aula06\Cars\Cars\Fotos\Motos\';
+DECLARE @basePathCarro NVARCHAR(400) = N'C:\Users\Back\Documents\dev back end\BancoDeDados\Aula06\Cars\Cars\Fotos\Carros\';
+-- C:\Users\Back\Documents\dev back end\BancoDeDados\Aula06\Cars\Cars\Fotos\Motos\Moto1.jpg
 ;WITH Sequencia AS (
    SELECT
        Id, -- chave primária da tabela Estoque (ajuste se for outro nome)
