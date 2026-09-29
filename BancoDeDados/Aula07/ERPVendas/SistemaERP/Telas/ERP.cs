@@ -20,5 +20,30 @@ namespace SistemaERP.Telas
         {
             TelaLogin.AbrirTela();
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void consultaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+
+            TelaLogin.AbrirTela();
+
+        }
+
+        private void aprovaçãoDeUsuárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Aprovacao tela = new Aprovacao();
+            tela.Show();
+        }
     }
 }

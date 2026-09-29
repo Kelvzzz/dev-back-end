@@ -5,16 +5,17 @@ using System.Text;
 
 namespace SistemaERP.Classes.Enumeracoes
 {
-    internal class Enumeracoes
+    public enum StatusUsuario;
+    public class Enumeracoes
     {
-        internal enum StatusUsuario
+     public  enum StatusUsuario
         {
             [Description ("Aguardando aprovação...")]
-            Aguardando,
+            Aguardando = 0,
             [Description("Usuário Aprovado")]
-            Aprovado,
+            Aprovado = 1,
             [Description("Usuario Reprovado")]
-            Reprovado
+            Reprovado = 2
         }
     }
 }

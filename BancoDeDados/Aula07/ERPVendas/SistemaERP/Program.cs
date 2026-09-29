@@ -28,7 +28,7 @@ namespace SistemaERP
              {
                  MessageBox.Show("Conexao realizada com sucesso");
                 // Application.Run(new Login()) Utilização futura <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-                Application.Run(new Registrar());
+                Application.Run(new ERP());
              }
              else
              {
