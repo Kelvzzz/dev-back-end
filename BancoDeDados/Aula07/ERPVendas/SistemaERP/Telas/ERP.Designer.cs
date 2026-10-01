@@ -46,6 +46,7 @@
             criarUsuárioToolStripMenuItem = new ToolStripMenuItem();
             excluirUsuárioToolStripMenuItem = new ToolStripMenuItem();
             pictureBox1 = new PictureBox();
+            reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -110,6 +111,7 @@
             relátorioDeVendasToolStripMenuItem.Name = "relátorioDeVendasToolStripMenuItem";
             relátorioDeVendasToolStripMenuItem.Size = new Size(243, 22);
             relátorioDeVendasToolStripMenuItem.Text = "Relátorio de vendas";
+            relátorioDeVendasToolStripMenuItem.Click += relátorioDeVendasToolStripMenuItem_Click;
             // 
             // editarPedidoDeVendasToolStripMenuItem
             // 
@@ -169,6 +171,14 @@
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
+            // reportViewer1
+            // 
+            reportViewer1.Location = new Point(0, 0);
+            reportViewer1.Name = "ReportViewer";
+            reportViewer1.ServerReport.BearerToken = null;
+            reportViewer1.Size = new Size(396, 246);
+            reportViewer1.TabIndex = 0;
+            // 
             // ERP
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -180,6 +190,7 @@
             Name = "ERP";
             Text = "ERP Vendas";
             FormClosed += ERP_FormClosed;
+            Load += ERP_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -207,5 +218,6 @@
         private ToolStripMenuItem criarUsuárioToolStripMenuItem;
         private ToolStripMenuItem excluirUsuárioToolStripMenuItem;
         private PictureBox pictureBox1;
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }
