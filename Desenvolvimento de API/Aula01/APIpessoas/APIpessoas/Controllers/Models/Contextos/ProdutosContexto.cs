@@ -1,7 +1,8 @@
 ﻿using APIpessoas.Controllers.Models.Entidades;
 using Microsoft.EntityFrameworkCore;
 
-namespace APIpessoas.Controllers.Models.Contextos;
+using Microsoft.EntityFrameworkCore;
+namespace APIpessoas.Models.Contextos; 
    {
 
     public class ProdutosContexto : DbContext
