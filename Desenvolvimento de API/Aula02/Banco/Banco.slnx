@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Banco/Banco.csproj" />
+  <Project Path="TelaBanco/TelaBanco.csproj" Id="dd86d418-55da-474d-9dc4-d8a4135264e2" />
 </Solution>
