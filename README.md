@@ -1,4 +1,4 @@
-# Desenvolvedor Back-End - Turma 176A.DBKE.2N26
+S# Desenvolvedor Back-End - Turma 176A.DBKE.2N26
 Repositório com as atividades desenvolvidas no curso do **SENAI de Americana** para qualificação em **Desenvolvimento Back-End**.
 
 ##🎯 Objetivo do curso 🎯
@@ -72,16 +72,10 @@ Este repositório reúne exercícios e projetos organizados por módulos de estu
 
 | Projeto | Status | Link |
 |---|---|---|
-
 | Aula01 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula01/Segunda).
-
 | Aula02 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula02/Quarta).
-
 | Aula03 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula03/SextaFeira).
-
 | Aula04 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula04/QuartaFeira).
-
 | Aula06 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula06/Cars).
-
 | Aula07 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula07/ERPVendas).
 
