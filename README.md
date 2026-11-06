@@ -49,6 +49,9 @@ Este repositório reúne exercícios e projetos organizados por módulos de estu
 
 ### Programação orientada a objetos 
 
+| Projeto | Status | Link |
+|---|---|---|
+
 | Aula01 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/Programa%C3%A7%C3%A3o%20orientada%20a%20objetos/Aula01/POO)
 
 | Aula02 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/Programa%C3%A7%C3%A3o%20orientada%20a%20objetos/Aula02)
@@ -65,6 +68,20 @@ Este repositório reúne exercícios e projetos organizados por módulos de estu
 
 | Aula09 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/Programa%C3%A7%C3%A3o%20orientada%20a%20objetos/Aula09)
 
+### Desenvolvimento de Banco de dados com a técnica ORM
 
+| Projeto | Status | Link |
+|---|---|---|
 
+| Aula01 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula01/Segunda).
+
+| Aula02 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula02/Quarta).
+
+| Aula03 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula03/SextaFeira).
+
+| Aula04 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula04/QuartaFeira).
+
+| Aula06 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula06/Cars).
+
+| Aula07 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/BancoDeDados/Aula07/ERPVendas).
 
