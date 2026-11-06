@@ -28,6 +28,7 @@ Este repositório reúne exercícios e projetos organizados por módulos de estu
 ## 🔴 Projetos por módulo 🔴
 ### Lógica de programação e algoritmo
 
+| Projeto | Status | Link |
 |---|---|---|---||---|---|---|---|---|---|
 
 |Aula01|✅ Concluído |.[Abrir].(). 
