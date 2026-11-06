@@ -29,7 +29,6 @@ Este repositório reúne exercícios e projetos organizados por módulos de estu
 ### Lógica de programação e algoritmo
 
 | Projeto | Status | Link |
-
 |---|---|---|
 
 | Aula01 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20e%20Algoritmos/Aula%2001). 
