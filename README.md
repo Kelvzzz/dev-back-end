@@ -32,12 +32,19 @@ Este repositório reúne exercícios e projetos organizados por módulos de estu
 |---|---|---|
 
 | Aula01 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20e%20Algoritmos/Aula%2001). 
+
 | Aula02 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20e%20Algoritmos/Aula%2002/ConsoleApp1).
+
 | Aula03 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20e%20Algoritmos/Aula%2003).
+
 | Aula04 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20e%20Algoritmos/Aula04).
+
 | Aula06 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20e%20Algoritmos/Aula06).
+
 | Aula07 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20e%20Algoritmos/Aula07).
+
 | Aula08 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20e%20Algoritmos/Aula08/Quarta).
+
 | Aula10 |✅ Concluído |.[Abrir].(https://github.com/Kelvzzz/dev-back-end/tree/master/L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20e%20Algoritmos/Aula10/ultima_aula).
 
 
